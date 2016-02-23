@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <color name="primaryColorDark">#1976D2</color>
+    <!-- Status Bar -->
+    <color name="primaryColor">#2196F3</color>
+    <!-- Title bar -->
+    <color name="lightPrimaryColor">#E3F2FD</color>
+    <color name="colorAccent">#E91E63</color>
+    <color name="primaryText">#212121</color>
+    <color name="secondaryText">#727272</color>
+    <color name="dividerColor">#B6B6B6</color>
+
+    <color name="white">#FFFFFF</color>
+    <!-- Accent Color -->
+
+
+</resources>

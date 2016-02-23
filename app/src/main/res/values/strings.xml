@@ -1,0 +1,87 @@
+<resources>
+    <string name="app_name">Clash of Clans Helper</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Hints -->
+    <string name="sort">Sort</string>
+    <string name="search">Search</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="buildings">Buildings</string>
+    <string name="troop_calculator">Troop Calculator</string>
+    <string name="start_coc">Start Clash of Clans</string>
+    <string name="adv_notifications">Advanced Notifications</string>
+    <string name="settings">Settings</string>
+    <string name="help_feedback">Help and Feedback</string>
+
+    <string name="action_sort_by_name_asc">Name (asc)</string>
+    <string name="action_sort_by_name_desc">Name (desc)</string>
+    <string name="menu_sort_type">Type</string>
+    <string name="menu_sort_cost_asc">Cost (asc)</string>
+    <string name="menu_sort_cost_desc">Cost (desc)</string>
+    <string name="menu_sort_time_asc">Time (asc)</string>
+    <string name="menu_sort_time_desc">Time (desc)</string>
+
+    <string name="accessibility_service_description">tsetdfasdf</string>
+    <string name="permdesc_flashlight">Used to flash the Camera LED on a notification recieved</string>
+    <string name="permlab_flashlight">sdf</string>
+    <string name="prekkdialog">CoC Notification</string>
+
+
+    <string name="app_name_short">CoC Helper</string>
+    <string name="login">Login</string>
+
+
+    <string name="vibrate_group_title">Custom Vibration</string>
+    <string name="vibrate_switch_summary">Enable custom vibration when a Clash of Clans notification is received</string>
+    <string name="vibrate_switch_title">Vibration</string>
+    <string name="vibrate_pulse_summary">Set the pulse duration of the vibration</string>
+    <string name="vibrate_pulse_title">Vibration Pulse Duration</string>
+    <string name="vibrate_duration_dialog_message">in milliseconds (1 second = 1000 milliseconds)\\nEnter 0 for until dismissed</string>
+    <string name="vibrate_duration_summary">Set the total duration of the vibration</string>
+    <string name="vibrate_duration_title">Vibration Duration</string>
+
+    <string name="led_group_title">Custom Camera LED (EXPERIMENTAL)</string>
+    <string name="led_switch_summary">Enable custom camera LED flashing when a Clash of Clans notification is received</string>
+    <string name="led_switch_title">Camera LED</string>
+    <string name="led_pulse_summary">Set the pulse duration of each LED flash</string>
+    <string name="led_pulse_title">LED Flash Pulse Duration</string>
+    <string name="led_duration_dialog_message">in milliseconds (1 second = 1000 milliseconds)\\nEnter 0 for until dismissed</string>
+    <string name="led_duration_summary">Set the total duration of the flashing</string>
+    <string name="led_duration_title">LED Flash Duration</string>
+    <string name="vibration_pulse_default">100</string>
+    <string name="vibrate_duration_default">2000</string>
+    <string name="collapse_all">Collapse All</string>
+    <string name="expand_all">Expand All</string>
+    <string name="troops">Troops</string>
+    <string name="add">Add</string>
+    <string name="cancel">Cancel</string>
+    <string name="defenses_group_title">Defenses</string>
+    <string name="hide_maxed_level_troops">Hide Maxed Troops</string>
+    <string name="hide_maxed_level_troops_summary">If checked, maxed troops will not show.</string>
+    <string name="hide_maxed_level_defenses">Hide Maxed Defenses</string>
+    <string name="hide_maxed_level_defenses_summary">If checked, maxed defenses will not show.</string>
+    <string name="troops_group_title">Troops</string>
+    <string name="misc">Misc</string>
+    <string name="title_list_preference">Default Tool Screen</string>
+    <string name="summary_list_preference">The screen selected will be the first to load when accessing the app.</string>
+    <string name="dialog_title_list_preference">Fragments</string>
+    <string name="revoke_permission_button">revoke_permission_button</string>
+    <string name="revoke_dialog_message">Revoking this permission will eliminate the ability to sync app data across multiple devices.</string>
+    <string name="revoke_dialog_title">Revoke Google Drive Permissions?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="revoke_dialog_summary">Remove access from Google Drive</string>
+    <string name="revoke_pref_title">Revoke Google Drive Permission</string>
+
+    <item type="bool" name="myFalse">false</item>
+
+</resources>

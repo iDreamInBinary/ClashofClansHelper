@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="entries_list_preference">
+        <item>@string/buildings</item>
+        <item>@string/adv_notifications</item>
+        <!--<item>@string/troops</item>-->
+        <!--<item>@string/troop_calculator</item>-->
+    </string-array>
+
+</resources>

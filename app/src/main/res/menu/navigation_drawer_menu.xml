@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:id="@+id/nav_tools"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_building"
+            android:icon="@mipmap/ic_castle_grey600_48dp"
+            android:title="@string/buildings" />
+
+
+        <item
+            android:id="@+id/nav_troop"
+            android:icon="@mipmap/ic_sword_grey600_48dp"
+            android:title="@string/troops"
+            android:visible="false" />
+
+        <item
+            android:id="@+id/nav_calculator"
+            android:icon="@mipmap/ic_calculator_grey600_48dp"
+            android:title="@string/troop_calculator"
+            android:visible="false" />
+        <item
+            android:id="@+id/nav_notification"
+            android:icon="@mipmap/ic_bell_grey600_48dp"
+            android:title="@string/adv_notifications" />
+
+        <item
+            android:id="@+id/nav_start_coc"
+            android:icon="@mipmap/ic_google_controller_grey600_48dp"
+            android:title="@string/start_coc" />
+    </group>
+
+    <group
+        android:id="@+id/nav_misc"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@mipmap/ic_settings_grey600_48dp"
+            android:title="@string/settings" />
+        <item
+            android:id="@+id/nav_help_feedback"
+            android:icon="@mipmap/ic_help_circle_grey600_48dp"
+            android:title="@string/help_feedback"
+            android:visible="false" />
+    </group>
+
+</menu>

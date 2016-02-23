@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/sort_type"
+        android:title="@string/menu_sort_type" />
+
+    <item
+        android:id="@+id/sort_cost_asc"
+        android:title="@string/menu_sort_cost_asc" />
+
+    <item
+        android:id="@+id/sort_cost_desc"
+        android:title="@string/menu_sort_cost_desc" />
+
+    <item
+        android:id="@+id/sort_time_asc"
+        android:title="@string/menu_sort_time_asc" />
+
+    <item
+        android:id="@+id/sort_time_desc"
+        android:title="@string/menu_sort_time_desc" />
+
+</menu>

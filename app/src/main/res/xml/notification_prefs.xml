@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <PreferenceCategory android:title="@string/vibrate_group_title">
+        <SwitchPreference
+            android:defaultValue="@bool/myFalse"
+            android:icon="@mipmap/ic_vibrate_grey600_48dp"
+            android:key="vibration_switch"
+            android:summary="@string/vibrate_switch_summary"
+            android:title="@string/vibrate_switch_title" />
+
+        <EditTextPreference
+            android:defaultValue="@string/vibration_pulse_default"
+            android:dependency="vibration_switch"
+            android:inputType="number"
+            android:key="vibration_pulse"
+            android:summary="@string/vibrate_pulse_summary"
+            android:title="@string/vibrate_pulse_title" />
+
+        <EditTextPreference
+            android:defaultValue="@string/vibrate_duration_default"
+            android:dependency="vibration_switch"
+            android:dialogMessage="@string/vibrate_duration_dialog_message"
+            android:inputType="number"
+            android:key="vibration_duration"
+            android:summary="@string/vibrate_duration_summary"
+            android:title="@string/vibrate_duration_title" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/led_group_title">
+
+        <SwitchPreference
+            android:defaultValue="@bool/myFalse"
+            android:icon="@mipmap/ic_flash_grey600_48dp"
+            android:key="led_switch"
+            android:summary="@string/led_switch_summary"
+            android:title="@string/led_switch_title" />
+
+        <EditTextPreference
+            android:defaultValue="@string/vibration_pulse_default"
+            android:dependency="led_switch"
+            android:inputType="number"
+            android:key="led_pulse"
+            android:summary="@string/led_pulse_summary"
+            android:title="@string/led_pulse_title" />
+
+        <EditTextPreference
+            android:defaultValue="@string/vibrate_duration_default"
+            android:dependency="led_switch"
+            android:dialogMessage="@string/led_duration_dialog_message"
+            android:inputType="number"
+            android:key="led_duration"
+            android:summary="@string/led_duration_summary"
+            android:title="@string/led_duration_title" />
+
+
+    </PreferenceCategory>
+</PreferenceScreen>

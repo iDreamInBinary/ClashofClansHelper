@@ -1,0 +1,57 @@
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="4dp"
+    android:layout_marginLeft="8dp"
+    android:layout_marginRight="8dp"
+    android:background="?android:attr/selectableItemBackground"
+    android:layout_marginTop="4dp">
+
+    <RelativeLayout
+        android:id="@+id/parent_relative_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?android:attr/selectableItemBackground">
+
+        <ImageView
+            android:id="@+id/entity_image"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="8dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/blank_profile_picture" />
+
+        <TextView
+            android:id="@+id/entity_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="16dp"
+            android:text="Archer"
+            android:textColor="#000" />
+
+        <Button
+            android:id="@+id/entity_upgrade"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:text="Upgrade" />
+
+
+        <TextView
+            android:id="@+id/entity_max_level"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/entity_name"
+            android:layout_centerHorizontal="true"
+            android:text="Max Level: 5"
+            android:textColor="#000" />
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>
