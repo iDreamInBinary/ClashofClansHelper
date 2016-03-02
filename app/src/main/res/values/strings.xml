@@ -67,8 +67,8 @@
     <string name="defenses_group_title">Defenses</string>
     <string name="hide_maxed_level_troops">Hide Maxed Troops</string>
     <string name="hide_maxed_level_troops_summary">If checked, maxed troops will not show.</string>
-    <string name="hide_maxed_level_defenses">Hide Maxed Defenses</string>
-    <string name="hide_maxed_level_defenses_summary">If checked, maxed defenses will not show.</string>
+    <string name="hide_maxed_level_defenses">Hide Maxed Buildings</string>
+    <string name="hide_maxed_level_defenses_summary">If checked, maxed buildings will not show.</string>
     <string name="troops_group_title">Troops</string>
     <string name="misc">Misc</string>
     <string name="title_list_preference">Default Tool Screen</string>

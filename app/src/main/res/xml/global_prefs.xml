@@ -11,15 +11,15 @@
 
     </PreferenceCategory>
 
-    <PreferenceCategory android:title="@string/troops_group_title">
+    <!--<PreferenceCategory android:title="@string/troops_group_title">-->
 
-        <CheckBoxPreference
-            android:defaultValue="@bool/myFalse"
-            android:key="hide_maxed_troops"
-            android:summary="@string/hide_maxed_level_troops_summary"
-            android:title="@string/hide_maxed_level_troops" />
+        <!--<CheckBoxPreference-->
+            <!--android:defaultValue="@bool/myFalse"-->
+            <!--android:key="hide_maxed_troops"-->
+            <!--android:summary="@string/hide_maxed_level_troops_summary"-->
+            <!--android:title="@string/hide_maxed_level_troops" />-->
 
-    </PreferenceCategory>
+    <!--</PreferenceCategory>-->
 
     <PreferenceCategory android:title="@string/misc">
 
